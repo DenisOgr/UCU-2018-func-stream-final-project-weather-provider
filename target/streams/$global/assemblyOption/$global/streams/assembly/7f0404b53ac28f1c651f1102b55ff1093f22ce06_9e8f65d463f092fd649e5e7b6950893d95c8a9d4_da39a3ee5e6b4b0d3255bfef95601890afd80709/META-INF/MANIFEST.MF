@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: cats-effect
+Implementation-Version: 0.10.1
+Specification-Vendor: Typelevel
+Specification-Title: cats-effect
+Implementation-Vendor-Id: org.typelevel
+Specification-Version: 0.10.1
+Implementation-URL: https://typelevel.org/cats-effect/
+Implementation-Vendor: Typelevel
+

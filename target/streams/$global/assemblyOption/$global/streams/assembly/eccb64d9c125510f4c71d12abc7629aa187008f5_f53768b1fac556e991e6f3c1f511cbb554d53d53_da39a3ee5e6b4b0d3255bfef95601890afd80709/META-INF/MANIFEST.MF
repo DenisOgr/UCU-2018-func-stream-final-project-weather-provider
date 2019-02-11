@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: core
+Implementation-Version: 0.8.5
+Specification-Vendor: com.pepegar
+Specification-Title: core
+Implementation-Vendor-Id: com.pepegar
+Specification-Version: 0.8.5
+Implementation-URL: https://github.com/pepegar/hammock
+Implementation-Vendor: com.pepegar
+

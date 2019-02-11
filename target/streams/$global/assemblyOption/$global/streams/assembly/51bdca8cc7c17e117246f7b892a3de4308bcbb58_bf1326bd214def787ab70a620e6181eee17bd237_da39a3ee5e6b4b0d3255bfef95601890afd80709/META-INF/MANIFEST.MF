@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: macrosJVM
+Implementation-Version: 1.5.1-cats
+Specification-Vendor: com.github.julien-truffaut
+Specification-Title: macrosJVM
+Implementation-Vendor-Id: com.github.julien-truffaut
+Specification-Version: 1.5.1-cats
+Implementation-URL: https://github.com/julien-truffaut/Monocle
+Implementation-Vendor: com.github.julien-truffaut
+

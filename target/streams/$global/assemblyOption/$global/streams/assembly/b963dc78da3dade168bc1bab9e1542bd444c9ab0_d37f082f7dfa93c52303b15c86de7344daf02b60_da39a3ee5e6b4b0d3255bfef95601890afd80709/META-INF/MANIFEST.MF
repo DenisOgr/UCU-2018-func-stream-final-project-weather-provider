@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Implementation-Title: core
+Implementation-Version: 1.2.0
+Specification-Vendor: org.typelevel
+Specification-Title: core
+Implementation-Vendor-Id: org.typelevel
+Specification-Version: 1.2.0
+Implementation-URL: https://github.com/milessabin/export-hook
+Vcs-Release-Tag: v1.2.0
+Implementation-Vendor: org.typelevel
+Vcs-Release-Hash: f9a8d329e57c9f8e2af7dda9006c6acb221cee04
+

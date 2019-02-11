@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: atto-core
+Implementation-Version: 0.6.1
+Specification-Vendor: org.tpolecat
+Specification-Title: atto-core
+Implementation-Vendor-Id: org.tpolecat
+Specification-Version: 0.6.1
+Implementation-URL: https://github.com/tpolecat/atto
+Implementation-Vendor: org.tpolecat
+

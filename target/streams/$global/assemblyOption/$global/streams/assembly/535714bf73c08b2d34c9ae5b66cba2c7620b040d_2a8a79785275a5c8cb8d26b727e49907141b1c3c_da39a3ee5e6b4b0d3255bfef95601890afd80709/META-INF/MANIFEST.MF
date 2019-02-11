@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: core
+Implementation-Version: 0.3.1
+Specification-Vendor: com.github.julien-truffaut
+Specification-Title: core
+Implementation-Vendor-Id: com.github.julien-truffaut
+Specification-Version: 0.3.1
+Implementation-URL: https://github.com/julien-truffaut/newts
+Implementation-Vendor: com.github.julien-truffaut
+
