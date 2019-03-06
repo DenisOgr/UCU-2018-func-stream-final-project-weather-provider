@@ -1,7 +1,0 @@
-[0m[[0m[33mwarn[0m] [0m[0m/Users/denisporplenko/Documents/UCU master degree/1/scala/final-project/UCU-2018-scala-final-project-weather-provider/src/main/scala/app/WeatherSourceTask.scala:57:14: This catches all Throwables. If this is really intended, use `case _ : Throwable` to clear this warning.[0m
-[0m[[0m[33mwarn[0m] [0m[0m        case _ => {[0m
-[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mthere were two deprecation warnings (since 2.11.0)[0m
-[0m[[0m[33mwarn[0m] [0m[0mthere was one deprecation warning (since 2.12.0)[0m
-[0m[[0m[33mwarn[0m] [0m[0mthere were three deprecation warnings in total; re-run with -deprecation for details[0m
-[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m

@@ -1,6 +1,6 @@
 name := "UCU-2018-scala-final-project-weather-provider(Kafka connect)"
 
-version := "1.2"
+version := "0.1"
 
 scalaVersion := "2.12.8"
 val kafkaGroupId = "org.apache.kafka"
@@ -12,5 +12,23 @@ val kafkaConnectArtifactId = "connect-api"
 libraryDependencies +=  kafkaGroupId % kafkaConnectArtifactId % kafkaClientRevision
 
 libraryDependencies += "com.snowplowanalytics" %% "scala-weather" % "0.4.0"
+
+resolvers += Resolver.bintrayRepo("ovotech", "maven")
+val kafkaSerializationV = "0.3.9"
+
+libraryDependencies ++= Seq(
+  "com.ovoenergy" %% "kafka-serialization-core" % kafkaSerializationV,
+  "com.ovoenergy" %% "kafka-serialization-circe" % kafkaSerializationV
+)
+
+val circeVersion = "0.9.3"
+
+libraryDependencies ++= Seq(
+  "io.circe" %% "circe-core",
+  "io.circe" %% "circe-generic",
+  "io.circe" %% "circe-parser"
+).map(_ % circeVersion)
+
+fork in run := true
 
 addCompilerPlugin("org.scalamacros" % "paradise" % "2.1.1" cross CrossVersion.full)
