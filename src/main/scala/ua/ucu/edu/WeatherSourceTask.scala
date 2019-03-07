@@ -1,4 +1,4 @@
-package weatherKafkaConnect
+package ua.ucu.edu
 
 import java.time.Instant
 import java.util
@@ -8,10 +8,11 @@ import cats.effect.IO
 import com.snowplowanalytics.weather.Errors.WeatherError
 import com.snowplowanalytics.weather.providers.openweather.Responses.Current
 import com.snowplowanalytics.weather.providers.openweather.{OpenWeatherMap, OwmClient}
-import io.circe.generic.auto._, io.circe.syntax._
-
+import io.circe.generic.auto._
+import io.circe.syntax._
 import org.apache.kafka.connect.data.Schema
 import org.apache.kafka.connect.source.{SourceRecord, SourceTask}
+import ua.ucu.edu.models.Weather
 
 import scala.io.Source
 

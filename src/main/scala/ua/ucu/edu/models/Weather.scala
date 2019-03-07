@@ -1,5 +1,4 @@
-package weatherKafkaConnect
-
+package ua.ucu.edu.models
 
 case class Weather(
   temp: BigDecimal,
