@@ -1,9 +1,13 @@
 # UCU-2018-scala-final-project-weather-provider
-This is a weather provider(Kafka-connect) for scala  final project.
+This is a solar panel sensor provider(Kafka-connect) for scala  final project.
+Your task build jar connect. To do this:
 
-### Build from source:
-```shelllanguage
-    sbt assembly
+Build Docker image (first time only)
 ```
-You will see .jar at
-`{root}/target/scala-2.12/UCU-2018-scala-final-project-weather-provider(Kafka connect)-assembly-0.1`
+make build
+```
+Build fat jar (run docker container and  build jar inside)
+```
+make assembly
+```
+Copy `{root}/kafka-connect-weather-panel.jar` to kafka plugins

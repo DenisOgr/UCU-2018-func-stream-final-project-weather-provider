@@ -117,6 +117,7 @@ Temporary Items
 ### Scala ###
 *.class
 *.log
+*.jar
 target
-project/target
+project
 # End of https://www.gitignore.io/api/macos,scala,intellij+all
